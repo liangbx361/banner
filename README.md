@@ -10,14 +10,14 @@
 
 ## 依赖
 ```groovy
-compile 'com.nd.sdp.android:e-banner:0.1.3'
+ compile 'com.github.liangbx361:banner:0.1'
 ```
 
 ## 用法
 ### 基本用法
 在布局文件中添加BannerView
 ```xml
-<com.nd.sdp.android.ele.banner.BannerView
+<com.liangbx.android.banner.BannerView
         android:id="@+id/banner"
         android:layout_width="match_parent"
         android:layout_height="200dp"/>
@@ -25,7 +25,7 @@ compile 'com.nd.sdp.android:e-banner:0.1.3'
 在代码中设置属性
 ```java
 List<BannerItem> bannerItems = new ArrayList<>();
-bannerItems.add(new BannerItem("http://img1.3lian.com/img13/c3/26/d/81.jpg", "girl"));
+bannerItems.add(new BannerItem("http://img1.3lian.com/img13/c3/26/d/81.jpg", "bird"));
 mBannerView = (BannerView) findViewById(R.id.banner);
 mBannerView.setData(bannerItems);
 ```
