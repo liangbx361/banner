@@ -1,4 +1,6 @@
 # Banner 控件
+[![](https://jitpack.io/v/liangbx361/banner.svg)](https://jitpack.io/#liangbx361/banner)
+
 提供通用的Banner控件，实现图片、标题、指示器展示。
 
 ## 特性
