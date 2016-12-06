@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_base"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.liangbx.android.banner.BannerView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <LinearLayout
+        android:layout_below="@id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banner 条数："/>
+
+        <Spinner
+            android:id="@+id/bannerNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/autoPlay"
+            android:text="自动播放"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自动播放间隔时间："/>
+
+        <EditText
+            android:id="@+id/intervalTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3000"
+            android:inputType="number"/>
+
+        <CheckBox
+            android:id="@+id/cycleMode"
+            android:text="循环模式"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="刷新"
+            android:onClick="onRefresh"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

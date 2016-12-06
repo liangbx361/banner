@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:indicator="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp">
+
+    <com.rd.PageIndicatorView
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        indicator:piv_animationType="worm"
+        indicator:piv_selectedColor="@android:color/holo_blue_light"
+        indicator:piv_unselectedColor="@android:color/white"/>
+
+</LinearLayout>
