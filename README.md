@@ -3,6 +3,8 @@
 
 通用的Banner控件，通过封装ViewPager实现。
 
+![](img/banner-demo.gif)
+
 ## 特性
 * 支持循环模式
 * 支持自动播放（注：在手动滑动时会停止自动播放）
