@@ -3,7 +3,7 @@
 
 通用的Banner控件，通过封装ViewPager实现。
 
-![](img/banner-demo.gif)
+![演示](img/banner-demo.gif)
 
 ## 特性
 * 支持循环模式
@@ -14,6 +14,9 @@
 
 ## 待支持特性
 * 在不可见的情况下停止自动播放
+
+## 设计
+![领域图](doc/img/domain.png)
 
 ## 依赖
 ```groovy
